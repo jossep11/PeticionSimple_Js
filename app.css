@@ -1,0 +1,17 @@
+body {
+  background-color: rgba(0, 0, 0, 0.616);
+  font-size: 4rem;
+}
+div {
+  /* display: flex; */
+  border: 1px solid #fff;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
